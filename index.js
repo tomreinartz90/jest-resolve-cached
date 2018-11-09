@@ -7,7 +7,6 @@ function cachedResolve(id, options) {
   const joinedId = id.startsWith('.') ? path.join(options.basedir, id) : id;
   if (!cachedPaths[joinedId]) {
     cachedPaths[joinedId] = resolver(id, options);
-    console.log('add to cache', cachedPaths[joinedId]);
   }
 
   return cachedPaths[joinedId];
