@@ -1,0 +1,7 @@
+{
+  "name": "jest-resolve-cached",
+  "main": "index.js",
+  "dependencies": {
+    "jest-resolve": "^23.6.0"
+  }
+}
