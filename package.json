@@ -3,5 +3,27 @@
   "main": "index.js",
   "dependencies": {
     "jest-resolve": "^23.6.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "chache layer for jest-resolve",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomreinartz90/jest-resolve-cached.git"
+  },
+  "keywords": [
+    "jest",
+    "speed",
+    "cache",
+    "resolve"
+  ],
+  "author": "Tom Reinartz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomreinartz90/jest-resolve-cached/issues"
+  },
+  "homepage": "https://github.com/tomreinartz90/jest-resolve-cached#readme"
 }
