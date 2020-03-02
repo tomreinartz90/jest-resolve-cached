@@ -1,6 +1,5 @@
-const resolver = require('jest-resolve/build/default_resolver').default;
+const resolver = require('jest-resolve/build/defaultResolver').default;
 const path = require('path');
-
 const cachedPaths = {};
 
 function cachedResolve(id, options) {

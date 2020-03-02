@@ -2,10 +2,10 @@
   "name": "jest-resolve-cached",
   "main": "index.js",
   "dependencies": {
-    "jest-resolve": "^24.9.0"
+    "jest-resolve": "^25.1.0"
   },
   "version": "1.1.0",
-  "description": "chache layer for jest-resolve",
+  "description": "cache layer for jest-resolve",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
